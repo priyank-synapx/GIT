@@ -75,19 +75,18 @@
     "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "DesktopOrTablet",
-    "DocumentLayoutHeight": 768,
+    "DocumentLayoutHeight": 1366,
     "DocumentLayoutLockOrientation": false,
     "DocumentLayoutMaintainAspectRatio": true,
-    "DocumentLayoutOrientation": "landscape",
+    "DocumentLayoutOrientation": "portrait",
     "DocumentLayoutScaleToFit": true,
-    "DocumentLayoutWidth": 1366,
+    "DocumentLayoutWidth": 768,
     "DocumentType": "App",
     "EnableInstrumentation": false,
-    "FileID": "17dfe851-62f2-4f42-87ca-8f35a7fb709f",
-    "Id": "17dfe851-62f2-4f42-87ca-8f35a7fb709f",
+    "FileID": "f8b1122d-925a-4bce-88aa-b8693a57e376",
+    "Id": "78a7cc14-8abb-43c0-b40f-7cd0a69a4ff9",
     "InstrumentationKey": "",
-    "LocalDatabaseReferences": "{}",
-    "Name": "App_four",
+    "Name": "UI Testing",
     "OriginatingVersion": "1.324"
   },
   "PublishInfo": {
@@ -102,7 +101,6 @@
     "UserLocale": "en-US"
   },
   "ScreenOrder": [
-    "Screen1",
-    "Screen1_1"
+    "HomeScreen"
   ]
 }
