@@ -86,6 +86,7 @@
     "FileID": "f8b1122d-925a-4bce-88aa-b8693a57e376",
     "Id": "78a7cc14-8abb-43c0-b40f-7cd0a69a4ff9",
     "InstrumentationKey": "",
+    "LocalDatabaseReferences": "{}",
     "Name": "UI Testing",
     "OriginatingVersion": "1.324"
   },
@@ -101,6 +102,7 @@
     "UserLocale": "en-US"
   },
   "ScreenOrder": [
-    "HomeScreen"
+    "HomeScreen",
+    "Screen1"
   ]
 }

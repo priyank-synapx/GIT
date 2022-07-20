@@ -1,9 +1,12 @@
 HomeScreen As screen:
+    BackgroundImage: =
     Fill: =RGBA(224, 224, 224, 1)
     OnVisible: =
 
     HomeScreenContainer As groupContainer.manualLayoutContainer:
         Height: =Parent.Height-50
+        LayoutDirection: =LayoutDirection.Manual
+        LayoutMode: =LayoutMode.Auto
         Width: =Parent.Width-50
         X: =25
         Y: =25
@@ -1541,6 +1544,7 @@ HomeScreen As screen:
                 ZIndex: =1
 
             BGHeader As image:
+                DisplayMode: =DisplayMode.Disabled
                 Height: =212
                 Image: |-
                     ="data:image/svg+xml;utf8, "&EncodeUrl("<svg width='100%' height='100%' id='svg' viewBox='0 0 1440 500' xmlns='http://www.w3.org/2000/svg' class='transition duration-300 ease-in-out delay-150'><style>
@@ -1596,6 +1600,7 @@ HomeScreen As screen:
                 ZIndex: =2
 
             ButtonGallery As gallery.galleryVertical:
+                DisplayMode: =DisplayMode.Disabled
                 Height: =755
                 Items: |-
                     =Table(
@@ -1770,6 +1775,7 @@ HomeScreen As screen:
                     ZIndex: =2
 
             PlayLength As htmlViewer:
+                DisplayMode: =DisplayMode.Disabled
                 Height: =50
                 HtmlText: |-
                     ="<div style='
@@ -1790,6 +1796,7 @@ HomeScreen As screen:
                 ZIndex: =4
 
             PlayTimer As htmlViewer:
+                DisplayMode: =DisplayMode.Disabled
                 Height: =60
                 HtmlText: |-
                     ="<div style='
@@ -1812,6 +1819,7 @@ HomeScreen As screen:
 
             PlayingSong As label:
                 Color: =RGBA(255, 255, 255, 1)
+                DisplayMode: =DisplayMode.Disabled
                 Font: ="Agency FB"
                 FontWeight: =FontWeight.Semibold
                 Height: =60
@@ -1824,6 +1832,7 @@ HomeScreen As screen:
 
             PlayingArtist As label:
                 Color: =RGBA(255, 255, 255, 1)
+                DisplayMode: =DisplayMode.Disabled
                 Font: ="Agency FB"
                 Height: =60
                 Text: =playSong.Artist
@@ -1833,6 +1842,7 @@ HomeScreen As screen:
                 ZIndex: =7
 
             PlayingImage As image:
+                DisplayMode: =DisplayMode.Disabled
                 Height: =60
                 Image: =playSong.Artwork
                 ImagePosition: =ImagePosition.Fill
@@ -1846,6 +1856,7 @@ HomeScreen As screen:
                 ZIndex: =8
 
             BGBottomSeparator As htmlViewer:
+                DisplayMode: =DisplayMode.Disabled
                 Height: =50
                 HtmlText: |-
                     ="<div style='
@@ -1868,6 +1879,7 @@ HomeScreen As screen:
                 ZIndex: =9
 
             BGTopSeparator As htmlViewer:
+                DisplayMode: =DisplayMode.Disabled
                 Height: =50
                 HtmlText: |-
                     ="<div style='
@@ -1891,6 +1903,7 @@ HomeScreen As screen:
 
             SelectionName As htmlViewer:
                 AutoHeight: =true
+                DisplayMode: =DisplayMode.Disabled
                 Font: ="Agency FB"
                 Height: =67
                 HtmlText: |-
